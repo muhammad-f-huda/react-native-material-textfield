@@ -657,6 +657,7 @@ export default class TextField extends PureComponent {
       baseColor,
       errorColor,
       containerStyle,
+      lineColor
       inputContainerStyle: inputContainerStyleOverrides,
     } = this.props;
 
@@ -707,9 +708,9 @@ export default class TextField extends PureComponent {
       lineWidth,
       activeLineWidth,
       disabledLineWidth,
-
       lineType,
       disabledLineType,
+      lineColor
     };
 
     return (
