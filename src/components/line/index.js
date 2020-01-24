@@ -11,7 +11,7 @@ export default class Line extends PureComponent {
   static defaultProps = {
     lineType: 'solid',
     disabledLineType: 'dotted',
-    lineColor: '#eee',
+    lineColor: '#ddd',
     disabled: false,
     restricted: false,
   };
