@@ -49,6 +49,7 @@ export default class Line extends PureComponent {
       tintColor,
       errorColor,
       focusAnimation,
+      lineColor
     } = this.props;
 
     if (disabled) {
@@ -68,7 +69,7 @@ export default class Line extends PureComponent {
     return {
       borderColor: focusAnimation.interpolate({
         inputRange: [-1, 0, 1],
-        outputRange: [errorColor, baseColor, tintColor],
+        outputRange: [errorColor, lineColor, tintColor],
       }),
 
       borderWidth: focusAnimation.interpolate({
