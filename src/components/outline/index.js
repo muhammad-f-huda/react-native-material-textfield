@@ -6,6 +6,7 @@ import styles, { borderRadius } from './styles';
 
 export default class Line extends PureComponent {
   static defaultProps = {
+    lineColor: '#ddd',
     lineType: 'solid',
     disabled: false,
     restricted: false,
@@ -20,6 +21,7 @@ export default class Line extends PureComponent {
     tintColor: PropTypes.string,
     baseColor: PropTypes.string,
     errorColor: PropTypes.string,
+    lineColor: PropTypes.string,
 
     lineWidth: PropTypes.number,
     activeLineWidth: PropTypes.number,
