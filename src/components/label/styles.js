@@ -11,7 +11,7 @@ export default StyleSheet.create({
 
   text: {
     textAlign: 'left',
-    includeFontPadding: false,
+    // includeFontPadding: false,
     textAlignVertical: 'top',
   },
 });
