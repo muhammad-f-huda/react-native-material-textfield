@@ -316,6 +316,7 @@ export default class TextField extends PureComponent {
   }
 
   setValue(text) {
+    this.onChangeText(text);
     this.setState({ text });
   }
 
